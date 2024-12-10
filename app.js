@@ -6,13 +6,16 @@ app.get('/', (req,res) => { //Routes HTTP GET requests to the specified path, as
     res.send('Welcome to the homepage')    //sends "welcome to the home page" as a response to the client
 })
 
-app.get('/signup', (req,res) => {
-    res.send('this is the signup page');
+
+app.get('/register', (req,res) => {
+    res.send('this is the register page');
 });
+//gpt says post to create new user
 
 app.get('/login', (req,res) => {
     res.send('this is the login page');
 });
+//gpt says post for jwt token
 
 app.get('/dashboard', (req,res) => {
     res.send('this is the dashboard page');
@@ -21,6 +24,11 @@ app.get('/dashboard', (req,res) => {
 app.get('/transactions', (req,res) => {
     res.send('this is the transactions page');
 });
+/*gpt says post to add transactions
+get to fetch transactions
+put /transactions/:id to update transactions
+delete /transactions/:id to delete transactions
+*/
 
 app.get('/logout', (req,res) => {
     res.send('this is the logout page');
