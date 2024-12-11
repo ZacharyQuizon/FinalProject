@@ -4,7 +4,8 @@
   "description": "This is a full-stack web application designed to help users track their income and expenses. The application includes user authentication, transaction management, and a responsive user interface.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
