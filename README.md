@@ -10,3 +10,9 @@ The goal of the application is to help users manage their personal expenses effe
 
 
 Instructions for setting up and running the application locally:
+Clone the repository
+install Node.js, npm, and mysql
+run the mysql server
+run the app.js folder
+open the html live server
+
