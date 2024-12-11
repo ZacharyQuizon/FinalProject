@@ -22,9 +22,7 @@
 │   │   │   ├── auth.js
 │   │   │   ├── transactions.js
 */
-/**
- * Updated Backend Structure Based on Provided Teaching Materials
- */
+
 
 /** Backend - app.js */
 const express = require('express');
