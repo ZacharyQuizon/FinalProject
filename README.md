@@ -25,8 +25,8 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-$ git clone https://github.com/yourusername/expense-tracker.git
-$ cd expense-tracker
+$ git clone https://github.com/ZacharyQuizon/FinalProject.git
+$ cd FinalProject
 ```
 
 ### 2. Set Up the Backend
